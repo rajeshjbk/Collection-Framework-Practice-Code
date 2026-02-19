@@ -17,6 +17,7 @@ class UnknownClass1{
 			int i = ((Integer)it.next()); 
 			total += i; 
 		} 
+		
 		return total; 
 	} 
 } 
@@ -29,6 +30,7 @@ public class GenericDemo8 {
 
 		myList.add(4); 
 		myList.add(6); 
+		
 		UnknownClass1 u = new UnknownClass1(); 
 		int total =   u.addValues(myList); 
 
